@@ -1,0 +1,149 @@
+:root {
+    --white: #FFFFFF;
+    --black: #65d4f6;
+    --very-light-purple: #7840E7;
+    --purple-small: #f6ddf7;
+    --blu-sky: #cbd9f3;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: var(--white);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  #logo {
+    margin-top: 10px;
+    float: center;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+  }
+
+  #formulary{
+    text-align: center;
+  }
+  
+  form {
+    width: 50%; /* establece el ancho del formulario */
+    margin: 0 auto; /* centra el formulario en la página */
+  }
+  
+  fieldset {
+    border: none; /* elimina el borde del fieldset */
+    padding: 20px; /* agrega espaciado interno al fieldset */
+  }
+  
+  legend {
+    font-size: 1.5em; /* aumenta el tamaño de la letra de la leyenda */
+    font-weight: bold; /* hace que la letra de la leyenda sea negrita */
+    text-align: center; /* centra la leyenda en el fieldset */
+  }
+  
+  label {
+    display: block; /* hace que cada label sea un bloque */
+    margin-bottom: 10px; /* agrega espacio debajo de cada label */  }
+  
+  input[id="name"],input[id="phone"], input[id="email"] {
+    padding: 10px; /* agrega espaciado interno al input */
+    border-radius: 5px; /* redondea los bordes del input */
+    border: 1px solid #ccc; /* agrega un borde sólido al input */
+    width: 95%; /* hace que el input ocupe todo el ancho del contenedor */
+  }
+  
+  input[type="submit"] {
+    background-color:var(--black);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:--var(--very-light-purple);
+  }
+
+  #service {
+    text-align: center;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  
+  ul {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  li {
+    flex-basis: 30px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+  } 
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  #social-media {
+    text-align: center; /* Centra los iconos de redes sociales */
+    padding: 20px 0; /* Establece un margen superior e inferior para el contenedor */
+    background-color: #f5f5f5; /* Establece un color de fondo para el contenedor */
+    border-radius: 10px; /* Establece un borde redondeado en las esquinas del contenedor */
+    box-shadow: 2px 2px 10px #ccc; /* Establece una sombra en el contenedor */
+    margin: 20px;
+  }
+
+
+  #icon{
+    margin-top: 10px;
+    float: center;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #whatsapp-button {
+    position: fixed; /* hace que el botón flote en una esquina de la pantalla */
+    bottom: 30px; /* establece la posición inferior del botón */
+    right: 30px; /* establece la posición derecha del botón */
+    z-index: 999; /* asegura que el botón siempre esté encima de otros elementos */
+    display: flex; /* centra el contenido del botón */
+    align-items: center; /* centra el contenido del botón */
+    justify-content: center; /* centra el contenido del botón */
+    width: 50px; /* establece el ancho del botón */
+    height: 50px; /* establece la altura del botón */
+    background-color: green; /* establece el color de fondo del botón */
+    border-radius: 50%; /* redondea los bordes del botón */
+    text-decoration: none; /* quita el subrayado del enlace */
+  }
+  
+  #whatsapp-button img {
+    width: 25px; /* establece el ancho de la imagen */
+    height: 25px; /* establece la altura de la imagen */
+  }
+
+  #contact{
+
+    text-align: center;
+  }
