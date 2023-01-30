@@ -28,6 +28,10 @@
   #formulary{
     text-align: center;
   }
+
+  #info{
+    text-align: center;
+  }
   
   form {
     width: 50%; /* establece el ancho del formulario */
