@@ -32,6 +32,7 @@
 
   #info{
     text-align: center;
+    width: 50%;
   }
   
   form {
@@ -154,6 +155,10 @@
     text-align: center;
   }
 
+  #button {
+    background:--var(--black);
+  }
+
   @media only screen and (max-width: 991px) {
     #formulary {
       width: 100%;
@@ -164,5 +169,24 @@
       width: 100%;
       float: none;
       display:none;
+    }
+    #info {
+      text-align: center;
+      width: 100%;
+      float: none;
+      display: block;
+      margin: auto;
+    }
+    #navbarNav{
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    #navbarNav{
+      display: none;
+    }
+    .navbar-toggler{
+      display: none;
     }
   }
