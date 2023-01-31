@@ -82,14 +82,14 @@
     margin-right: 10px;
   }
   
-  ul {
+  #list {
     display: block;
     flex-wrap: wrap;
     justify-content: space-between;
 
   }
 
-  li {
+  #idlist {
     flex-basis: 30px;
     margin: 20px;
     padding: 30px;
@@ -151,3 +151,20 @@
 
     text-align: center;
   }
+  @media only screen and (max-width: 767px) {
+    .navbar-nav {
+      display: block;
+    }
+
+    form {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .navbar-nav {
+      display: none;
+    }
+  }
+
