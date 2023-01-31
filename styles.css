@@ -163,7 +163,6 @@
     #service{
       width: 100%;
       float: none;
-      display: none;
-
+      display:none;
     }
   }
