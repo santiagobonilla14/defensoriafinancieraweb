@@ -92,7 +92,7 @@
 
   }
 
-  li {
+  #idlist {
     flex-basis: 30px;
     margin: 20px;
     padding: 30px;
@@ -193,6 +193,17 @@
     #navbarNav{
       display: none;
       position: fixed;
+      background-color: var(--purple-small);
+      font-size: 1.7em;
+    }
+  
+    
+    .nav-item{
+      background-color:--var(--blu-sky);
+      margin: 20px;
+      padding: 30px;
+      text-align: center;
+      display: block;
     }
 
     #return{
