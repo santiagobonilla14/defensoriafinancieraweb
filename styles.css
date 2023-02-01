@@ -155,8 +155,16 @@
     text-align: center;
   }
 
-  #button {
-    background:--var(--black);
+  .navbar-toggler {
+    width: 200px;
+    height: 60px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    background-color:--var(--black);
+    color: #7840E7;
+    border-radius: 50px;
+    font-size: 2.0em;
   }
 
   @media only screen and (max-width: 991px) {
@@ -177,11 +185,14 @@
       float: none;
       display: block;
       margin: auto;
+      font-size: 2.0em;
+
     }
 
 
     #navbarNav{
       display: none;
+      position: fixed;
     }
 
     #return{
@@ -219,6 +230,14 @@
       width: 60px;
     }
 
+    #icon{
+      margin-top: 10px;
+      float: center;
+      margin-right: 20px;
+      width: 90px;
+      height: 90px;
+      padding: 2px;
+    }
     
   }
 
