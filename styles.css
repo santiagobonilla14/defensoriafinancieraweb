@@ -164,7 +164,7 @@
       width: 100%;
       float: none;
       display: block;
-      height: 100%;
+      font-size: 3.0em;
     }
     #service{
       width: 100%;
@@ -178,6 +178,8 @@
       display: block;
       margin: auto;
     }
+
+
     #navbarNav{
       display: none;
     }
@@ -185,6 +187,39 @@
     #return{
       display: none;
     }
+    label {
+      font-size: 2.2em; /* Aumentar tamaño de la letra */
+      padding: 10px; /* Aumentar el tamaño de los paddings */
+    }
+
+    input[type="submit"] {
+      height: 100px;
+      font-size: 40px;
+      padding: 10px;
+    }
+    input,[id="name"] ,input[id="phone"], input[id="email"]{
+      height: 100%;
+      font-size: 30px;
+      padding: 10px;
+    }
+
+    #contact{
+      font-size: 3.0em;
+    }
+
+    #whatsapp-button {
+      height: 100px;
+      width: 100px;
+      font-size: 40px;
+      padding: 15px;
+    }
+
+    #whatsapp-button img{
+      height: 60px;
+      width: 60px;
+    }
+
+    
   }
 
   @media only screen and (min-width: 992px) {
